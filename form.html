@@ -1,0 +1,52 @@
+<!Doctype>
+<html>
+<body>
+<center>
+<h2>Fill the Form</h2>
+<table>
+<form action="submit.php" method="get" >
+<tr>
+<td>First Name:</td><td> <input type="text" name="FirstName" value="" size="20"
+maxlength="20" /></td>
+</tr>
+<tr>
+<td>Last Name: </td><td><input type="text" name="LastName" value="" size="20"
+maxlength="20" /></td>
+</tr>
+<tr>
+<td>Comments:</td><td><textarea cols="40" name="comments" rows="6">
+</textarea></td></tr>
+<tr>
+<td>Password:</td><td><input type="password" value="" name="mypassword" maxlength="10"
+size="10" /></td></tr>
+<tr>
+<td>Title</td>
+<td>
+<input type="radio" name="title" value="mr" />Mr.<br />
+<input type="radio" name="title" value="ms" />Ms.<br />
+
+</td>
+</tr>
+
+<tr>
+<td>Nationality</td>
+<td>
+<select name="countries">
+<option>Argentina</option>
+<option>Australia</option>
+<option>Canada</option>
+<option selected="selected">India</option>
+</select></td>
+</tr>
+
+
+<td colspan="2" align="center">
+<input type="reset" name="submitbutton" value="Reset" />
+<input type="submit" name="submitbutton" value="Submit Form" />
+</td>
+</tr>
+</form>
+</table>
+</center>
+</body>
+</html>
